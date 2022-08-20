@@ -17,6 +17,7 @@ import {
   svelteStore,
   svelteTransition,
 } from './svelte'
+import axios from './axios'
 import veeValidate from './vee-validate'
 import vitepress from './vitepress'
 import vue from './vue'
@@ -39,6 +40,7 @@ import recoil from './recoil'
 
 export const presets = {
   'ahooks': ahooks,
+  'axios': axios,
   '@nuxtjs/composition-api': nuxtCompositionApi,
   '@vue/composition-api': vueCompositionApi,
   '@vueuse/core': vueuseCore,
